@@ -146,7 +146,7 @@ Pod::Spec.new do |s|
 
         # Facebook
         sp.subspec 'Facebook' do |ssp|
-            ssp.vendored_frameworks = 'ShareSDK/Support/PlatformConnector/FacebookConnector.framework','ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKLoginKit.framework','ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKCoreKit.framework','ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKShareKit.framework'
+            ssp.vendored_frameworks = 'ShareSDK/Support/PlatformConnector/FacebookConnector.framework','ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKLoginKit.framework','ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKShareKit.framework'
             ssp.library = 'c++', 'stdc++','z'
             ssp.resources = 'ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle'
             ssp.dependency 'mob_sharesdk/ShareSDK'
